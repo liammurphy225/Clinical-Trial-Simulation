@@ -71,5 +71,3 @@ Simulate and observe the required sample size per group and the corresponding po
 This project is open-source and available under the MIT License.
 
 
-### Contributions
-Feel free to contribute enhancements or report bugs by submitting an issue or pull request.
