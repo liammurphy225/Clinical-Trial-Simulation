@@ -30,26 +30,35 @@ You can install these packages using:
 install.packages(c("shiny", "shinythemes", "ggplot2", "dplyr", "pwr"))
 
 ### Usage
-Clone or download this repository.
-Run the following commands in R to start the app:
+
+1. Clone or download this repository.
+2. Run the following commands in R to start the app:
 
 library(shiny)
 runApp("path/to/clinical_trial_simulator.R")
-Adjust the trial design parameters in the sidebar panel and click Simulate to view the results.
-How It Works
+
+3. Adjust the trial design parameters in the sidebar panel and click Simulate to view the results.
+
+
+### How It Works
+
 Trial Design Selection:
 Parallel Design assumes independent samples and between-group comparisons.
 Crossover Design assumes within-subject comparisons with considerations for treatment period and carryover effects.
+
 Simulation:
 Computes the required sample size using the pwr.t.test function.
 Plots a power curve showing statistical power across varying effect sizes.
+
 Power Calculation:
 Parallel: Based on two independent samples.
 Crossover: Accounts for paired data structure.
-Files
+
+### Files
 clinical_trial_simulator.R: Main app script.
 README.md: Documentation for the app.
-Example
+
+### Example
 Launch the app, set:
 
 Effect Size: 0.5
