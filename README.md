@@ -1,9 +1,9 @@
-### Clinical Trial Simulator
+## Clinical Trial Simulator
 
-## Description
+### Description
 The Clinical Trial Simulator is a Shiny web application that enables users to simulate and visualize sample size requirements and statistical power for clinical trials. It supports two trial designs: Parallel and Crossover, and provides insights into the relationships between trial parameters such as effect size, standard deviation, significance level, and power.
 
-## Features
+### Features
 Trial Design Options: Choose between Parallel and Crossover designs.
 Customizable Inputs:
 Effect Size (difference between groups)
@@ -16,7 +16,7 @@ Required sample size per group for the specified parameters.
 Power curve visualization for varying effect sizes.
 Interactive Visualization: Graphical power curve to explore power dynamics.
 
-## Installation
+### Installation
 To run the app locally, ensure you have R and the following packages installed:
 
 shiny
@@ -25,11 +25,11 @@ ggplot2
 dplyr
 pwr
 
-## You can install these packages using:
+### You can install these packages using:
 
 install.packages(c("shiny", "shinythemes", "ggplot2", "dplyr", "pwr"))
 
-## Usage
+### Usage
 Clone or download this repository.
 Run the following commands in R to start the app:
 
@@ -58,9 +58,9 @@ Significance Level: 0.05
 Power: 0.8
 Simulate and observe the required sample size per group and the corresponding power curve.
 
-## License
+### License
 This project is open-source and available under the MIT License.
 
 
-## Contributions
+### Contributions
 Feel free to contribute enhancements or report bugs by submitting an issue or pull request.
