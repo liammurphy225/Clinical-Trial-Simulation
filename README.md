@@ -25,7 +25,7 @@ ggplot2
 dplyr
 pwr
 
-### You can install these packages using:
+You can install these packages using:
 
 install.packages(c("shiny", "shinythemes", "ggplot2", "dplyr", "pwr"))
 
