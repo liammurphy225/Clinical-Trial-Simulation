@@ -14,11 +14,11 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       h4("Trial Design Parameters"),
-      #in parallel design we assume 1. independent samples, 2. between-group comparisons and 3. variance is determined by between-subject variability
+      #if parallel design we assume 1. independent samples, 2. between-group comparisons and 3. variance is determined by between-subject variability
       #parallel requires a larger sample size because  there's no within-subject control for variability
       #power is influenced by between-group variability, effect size and sample size
       
-      #in crossover design we assume 1. within subject comparisons, 2. effects of treatment, period, and carryover must be accounted for and 3. reduced variability due to the use of paired data
+      #if crossover design we assume 1. within subject comparisons, 2. effects of treatment, period, and carryover must be accounted for and 3. reduced variability due to the use of paired data
       #requires  fewer participants due to reduced variability (within-subject variance is often smaller than between-subject variance)
       #power depend on the ability to isolate treatment effects from period and carryover effects
       #assumes no significant carryover effect(residual impact of treatment from a previous period that persists and influences other periods ex:if the same subject receives the multiple treatments in different periods)
